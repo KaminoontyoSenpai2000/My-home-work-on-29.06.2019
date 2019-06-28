@@ -1,0 +1,294 @@
+body {
+	margin: 0;
+	background: linear-gradient(red, transparent),linear-gradient(to top left, lime, transparent), linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.circle {
+	border-radius: 50%;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+}
+
+.circle1 {
+	background-color: rgba(255, 255, 255, 1);
+	width: 100px;
+	height: 100px;
+	animation-name: move1;
+}
+
+.circle2 {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 80px;
+	height: 80px;
+	animation-name: move2;
+	animation-delay: 0.1s;
+	top: 51.2%;
+	left: 30.95%; 
+}
+
+.circle3 {
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 60px;
+	height: 60px;
+	animation-name: move3;
+	animation-delay: 0.19s;
+	top: 52.5%;
+	left: 31.80%;
+}
+
+.circle4 {
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 40px;
+	height: 40px;
+	animation-name: move4;
+	animation-delay: 0.26s;
+	top: 53.8%;
+	left: 32.6%;
+}
+
+.circle5 {
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 20px;
+	height: 20px;
+	animation-name: move5;
+	animation-delay: 0.31s;
+	top: 54.8%;
+	left: 33.4%;
+}
+
+.container-flex {
+	width: 40%;
+	height: auto;
+}
+
+.circle {
+	display: flex;
+	border-radius: 50%;
+	position: absolute;	
+}
+
+@keyframes move1 {
+
+	6% {
+		transform: translate(-40px, -30px);
+	}
+
+	12% {
+		transform: translate(-50px, -100px);
+	}
+
+	18% {
+		transform: translate(-40px, -170px);
+	}
+
+	24% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	56% {
+		transform: translate(440px, -30px);
+	}
+
+	62% {
+		transform: translate(450px, -100px);
+	}
+
+	68% {
+		transform: translate(440px, -170px);
+	}
+
+	74% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move2 {
+
+	6% {
+		transform: translate(-40px, -30px);
+	}
+
+	12% {
+		transform: translate(-50px, -100px);
+	}
+
+	18% {
+		transform: translate(-40px, -170px);
+	}
+
+	24% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	56% {
+		transform: translate(440px, -30px);
+	}
+
+	62% {
+		transform: translate(450px, -100px);
+	}
+
+	68% {
+		transform: translate(440px, -170px);
+	}
+
+	74% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move3 {
+
+	6% {
+		transform: translate(-40px, -30px);
+	}
+
+	12% {
+		transform: translate(-50px, -100px);
+	}
+
+	18% {
+		transform: translate(-40px, -170px);
+	}
+
+	24% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	56% {
+		transform: translate(440px, -30px);
+	}
+
+	62% {
+		transform: translate(450px, -100px);
+	}
+
+	68% {
+		transform: translate(440px, -170px);
+	}
+
+	74% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move4 {
+
+	6% {
+		transform: translate(-40px, -30px);
+	}
+
+	12% {
+		transform: translate(-50px, -100px);
+	}
+
+	18% {
+		transform: translate(-40px, -170px);
+	}
+
+	24% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	56% {
+		transform: translate(440px, -30px);
+	}
+
+	62% {
+		transform: translate(450px, -100px);
+	}
+
+	68% {
+		transform: translate(440px, -170px);
+	}
+
+	74% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move5 {
+
+	6% {
+		transform: translate(-40px, -30px);
+	}
+
+	12% {
+		transform: translate(-50px, -100px);
+	}
+
+	18% {
+		transform: translate(-40px, -170px);
+	}
+
+	24% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	56% {
+		transform: translate(440px, -30px);
+	}
+
+	62% {
+		transform: translate(450px, -100px);
+	}
+
+	68% {
+		transform: translate(440px, -170px);
+	}
+
+	74% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
